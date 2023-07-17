@@ -51,3 +51,14 @@ squid:x:23:
 wbpriv:x:88:squid
 testuser:x:1001:
 testGroup:x:1002:testuser
+Login_group:x:1003:Login_user
+Login_user:x:1004:
+rpc:x:32:
+rpcuser:x:29:
+saslauth:x:76:
+mailnull:x:47:
+smmsp:x:51:
+fileuser1:x:1005:
+fileuser2:x:1006:
+fileuser3:x:1007:
+filegroup:x:1008:fileuser1,fileuser2,fileuser3
